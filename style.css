@@ -1,0 +1,110 @@
+body{
+    background-image:linear-gradient(45deg,blue,yellow);
+}
+#header {
+    background-color: black;
+    height: 70px;
+}
+
+#brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+#menu {
+
+    width: 60%;
+    float: right;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+p{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: cornsilk;
+    padding: 10px;
+    border: 2px solid #FFD55E;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+a:hover{
+    background-color: white;
+    color: black;
+
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    margin: 15% 25% 20%;
+  }
+  .one{
+      padding: 10px;
+      width: 200px;
+      font-size: large;
+      background-color: black;
+      color: white;
+      height: 40px;
+      transition: 0.3s;
+      border-radius: 5px;
+      margin-left: 100px;
+      margin-left: 200px;
+  }
+  .one:hover{
+      background-color: burlywood;
+      color: black;
+  }
+  .two{
+    padding: 10px;
+    width: 200px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+    
+}
+.two:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px black;
+}
+p + button{
+    margin-top: 20px;
+    
+}
+footer{
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 400px;
+    color: lightslategray;
+    background-color: #F6F6F6;
+    text-align: center;
+    background-color: black;
+    background-size: 100% 300px;
+}
+footer  i {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    
+}
